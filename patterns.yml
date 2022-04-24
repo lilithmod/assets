@@ -1,0 +1,163 @@
+---
+levelColor:
+  - threshold: 0
+    pattern: "&c"
+  - threshold: 35
+    pattern: "&6"
+  - threshold: 45
+    pattern: "&a"
+  - threshold: 55
+    pattern: "&e"
+  - threshold: 65
+    pattern: "&d"
+  - threshold: 75
+    pattern: "&f"
+  - threshold: 85
+    pattern: "&9"
+  - threshold: 95
+    pattern: "&2"
+  - threshold: 150
+    pattern: "&3"
+  - threshold: 175
+    pattern: "&4"
+  - threshold: 200
+    pattern: "&5"
+  - threshold: 225
+    pattern: "&7"
+  - threshold: 250
+    pattern: "&0"
+winsDivision:
+  - threshold: 0
+    pattern: "&8"
+  - threshold: 100
+    pattern: "&7"
+  - threshold: 200
+    pattern: "&f"
+  - threshold: 500
+    pattern: "&6"
+  - threshold: 1000
+    pattern: "&b"
+  - threshold: 2000
+    pattern: "&2"
+  - threshold: 4000
+    pattern: "&4"
+  - threshold: 10000
+    pattern: "&e"
+  - threshold: 20000
+    pattern: "&5"
+  - threshold: 50000
+    pattern: "&b&3"
+  - threshold: 100000
+    pattern: "&d"
+  - threshold: 200000
+    pattern: "&c"
+  - threshold: 500000
+    pattern: "&c&6&e&a&b&d&5"
+gamemodeWinsDivision:
+  - threshold: 0
+    pattern: "&8"
+  - threshold: 50
+    pattern: "&7"
+  - threshold: 100
+    pattern: "&f"
+  - threshold: 250
+    pattern: "&6"
+  - threshold: 500
+    pattern: "&b"
+  - threshold: 1000
+    pattern: "&2"
+  - threshold: 2000
+    pattern: "&4"
+  - threshold: 5000
+    pattern: "&e"
+  - threshold: 10000
+    pattern: "&5"
+  - threshold: 25000
+    pattern: "&b&3"
+  - threshold: 50000
+    pattern: "&d"
+  - threshold: 100000
+    pattern: "&c"
+  - threshold: 250000
+    pattern: "&c&6&e&a&b&d&5"
+wlrDivision:
+  - threshold: 0
+    pattern: "&8"
+  - threshold: 0.25
+    pattern: "&7"
+  - threshold: 1
+    pattern: "&f"
+  - threshold: 1.5
+    pattern: "&6"
+  - threshold: 3
+    pattern: "&b"
+  - threshold: 5
+    pattern: "&2"
+  - threshold: 7.5
+    pattern: "&4"
+  - threshold: 10
+    pattern: "&e"
+  - threshold: 20
+    pattern: "&5"
+  - threshold: 40
+    pattern: "&b&3"
+  - threshold: 60
+    pattern: "&d"
+  - threshold: 80
+    pattern: "&c"
+  - threshold: 100
+    pattern: "&c&6&e&a&b&d&5"
+wsDivision:
+  - threshold: 0
+    pattern: "&8"
+  - threshold: 2
+    pattern: "&7"
+  - threshold: 5
+    pattern: "&f"
+  - threshold: 10
+    pattern: "&6"
+  - threshold: 25
+    pattern: "&b"
+  - threshold: 50
+    pattern: "&2"
+  - threshold: 75
+    pattern: "&4"
+  - threshold: 100
+    pattern: "&e"
+  - threshold: 200
+    pattern: "&5"
+  - threshold: 400
+    pattern: "&b&3"
+  - threshold: 600
+    pattern: "&d"
+  - threshold: 800
+    pattern: "&c"
+  - threshold: 1000
+    pattern: "&c&6&e&a&b&d&5"
+wsDivisionOverall:
+  - threshold: 0
+    pattern: "&8"
+  - threshold: 5
+    pattern: "&7"
+  - threshold: 10
+    pattern: "&f"
+  - threshold: 20
+    pattern: "&6"
+  - threshold: 50
+    pattern: "&b"
+  - threshold: 100
+    pattern: "&2"
+  - threshold: 150
+    pattern: "&4"
+  - threshold: 200
+    pattern: "&e"
+  - threshold: 400
+    pattern: "&5"
+  - threshold: 800
+    pattern: "&b&3"
+  - threshold: 1200
+    pattern: "&d"
+  - threshold: 1600
+    pattern: "&c"
+  - threshold: 2000
+    pattern: "&c&6&e&a&b&d&5"
