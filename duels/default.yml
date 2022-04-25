@@ -1,0 +1,6 @@
+---
+test_gamemode:
+  needed: ['duels']
+  message: 'Hello',
+  gamemode: 'player.stats.Duels.general',
+  gametype: 'DUELS'
