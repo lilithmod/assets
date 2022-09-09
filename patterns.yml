@@ -1,5 +1,7 @@
 ---
 levelColor:
+  - threshold: 0
+    pattern: "&8"
   - threshold: 2
     pattern: "&c"
   - threshold: 35
