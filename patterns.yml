@@ -1,6 +1,6 @@
 ---
 levelColor:
-  - threshold: 1
+  - threshold: 2
     pattern: "&c"
   - threshold: 35
     pattern: "&6"
