@@ -1,0 +1,157 @@
+# All stat messages are included here as a gamemode|message pair.
+# You can add aliases for all of these gamemodes in the main config file.
+# Everything between { } is an expression, being a variable, function, or math expression using either of the former.
+# Provided variables are: ign, rank, level, stats, and gm. The only function is range
+# gm is simply a shortcut to the gamemode if it's one of the defaults, otherwise it will be null.
+# Currently stats is the full duels stats wrapper. Please create a ticket and our staff team will assist you in modification.
+# range takes the name of the range, the value to use, whether to add the value to the output of the range, and whether to reset styles at the end.
+
+stats_overall: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('winsDivision', gm.wins, true, true)},
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivisionOverall', gm.winstreaks.current.overall, true, true)}, BWS:
+  {range('wsDivisionOverall', gm.winstreaks.best.overall, true, true)}
+stats_bridge: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_bridge_duel: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_bridge_doubles: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_bridge_four: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_bridge_2v2v2v2: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_bridge_3v3v3v3: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_blitz_duel: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_bow_duel: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_bowspleef_duel: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_classic_duel: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_combo_duel: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_mega_walls_duel: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_mega_walls_doubles: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rCWS: {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_op_duel: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_op_doubles: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_potion_duel: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_skywars_duel: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_skywars_doubles: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_sumo_duel: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_uhc: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_uhc_duel: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_uhc_doubles: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_uhc_four: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}
+stats_uhc_meetup: >-
+  &9▌ {rank}{ign}&r Lvl: {range('levelColor', level, true, true)}, W:
+  {range('gamemodeWinsDivision', gm.wins, true, true)}
+  &9▌ &rW/L: {range('wlrDivision', gm.wlr, true, true)}, CWS:
+  {range('wsDivision', gm.current_winstreak, true, true)}, BWS:
+  {range('wsDivision', gm.best_winstreak, true, true)}

@@ -1,0 +1,33 @@
+---
+- name: femboy
+  prefix: "§4[FEMBOY] "
+  color: '4'
+  priority: 0
+- name: aydon
+  prefix: "§4[AYDON] "
+  color: '4'
+  priority: 0
+- name: cysecor
+  prefix: "§c[CYS] "
+  color: c
+  priority: 0
+- name: cryo
+  prefix: "§c[DIVINE] "
+  color: c
+  priority: 0
+- name: ross
+  prefix: "§d[ROSS<3] "
+  color: d
+  priority: 0
+- name: admin
+  prefix: "§4[ADMIN] "
+  color: '4'
+  priority: 1
+- name: dev
+  prefix: "§9[DEV] "
+  color: '9'
+  priority: 2
+- name: nea
+  prefix: "§d[NEA] "
+  color: d
+  priority: 3

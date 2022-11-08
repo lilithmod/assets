@@ -1,0 +1,172 @@
+# The ranges used in stat messages.
+# Ranges used in default stat messages are levelColor, winsDivision, gamemodeWinsDivision, wlrDivision, wsDivision, wsDivisionOverall
+# You can add as many as you'd like.
+# Any of the conditions can be included: lessThan, greaterThan, lessThanOrEqual, greaterThanOrEqual
+levelColor:
+  - lessThan: 35
+    output: '&c'
+  - greaterThanOrEqual: 35
+    lessThan: 45
+    output: '&6'
+  - greaterThanOrEqual: 45
+    lessThan: 55
+    output: '&a'
+  - greaterThanOrEqual: 55
+    lessThan: 65
+    output: '&e'
+  - greaterThanOrEqual: 65
+    lessThan: 75
+    output: '&d'
+  - greaterThanOrEqual: 75
+    lessThan: 85
+    output: '&f'
+  - greaterThanOrEqual: 85
+    lessThan: 95
+    output: '&9'
+  - greaterThanOrEqual: 95
+    lessThan: 150
+    output: '&2'
+  - greaterThanOrEqual: 150
+    lessThan: 175
+    output: '&3'
+  - greaterThanOrEqual: 175
+    lessThan: 200
+    output: '&4'
+  - greaterThanOrEqual: 200
+    lessThan: 225
+    output: '&5'
+  - greaterThanOrEqual: 225
+    lessThan: 250
+    output: '&7'
+  - greaterThanOrEqual: 250
+    output: '&0'
+winsDivision:
+  - lessThan: 100
+    output: '&8'
+  - greaterThanOrEqual: 100
+    lessThan: 200
+    output: '&7'
+  - greaterThanOrEqual: 200
+    lessThan: 500
+    output: '&f'
+  - greaterThanOrEqual: 500
+    lessThan: 1000
+    output: '&6'
+  - greaterThanOrEqual: 1000
+    lessThan: 2000
+    output: '&b'
+  - greaterThanOrEqual: 2000
+    lessThan: 4000
+    output: '&2'
+  - greaterThanOrEqual: 4000
+    lessThan: 10000
+    output: '&4'
+  - greaterThanOrEqual: 10000
+    lessThan: 20000
+    output: '&e'
+  - greaterThanOrEqual: 20000
+    output: '&5'
+gamemodeWinsDivision:
+  - lessThan: 50
+    output: '&8'
+  - greaterThanOrEqual: 50
+    lessThan: 100
+    output: '&7'
+  - greaterThanOrEqual: 100
+    lessThan: 250
+    output: '&f'
+  - greaterThanOrEqual: 250
+    lessThan: 500
+    output: '&6'
+  - greaterThanOrEqual: 500
+    lessThan: 1000
+    output: '&b'
+  - greaterThanOrEqual: 1000
+    lessThan: 2000
+    output: '&2'
+  - greaterThanOrEqual: 2000
+    lessThan: 5000
+    output: '&4'
+  - greaterThanOrEqual: 5000
+    lessThan: 10000
+    output: '&e'
+  - greaterThanOrEqual: 10000
+    output: '&5'
+wlrDivision:
+  - lessThan: 0.25
+    output: '&8'
+  - greaterThanOrEqual: 0.25
+    lessThan: 1
+    output: '&7'
+  - greaterThanOrEqual: 1
+    lessThan: 1.5
+    output: '&f'
+  - greaterThanOrEqual: 1.5
+    lessThan: 3
+    output: '&6'
+  - greaterThanOrEqual: 3
+    lessThan: 5
+    output: '&b'
+  - greaterThanOrEqual: 5
+    lessThan: 7.5
+    output: '&2'
+  - greaterThanOrEqual: 7.5
+    lessThan: 10
+    output: '&4'
+  - greaterThanOrEqual: 10
+    lessThan: 20
+    output: '&e'
+  - greaterThanOrEqual: 20
+    output: '&5'
+wsDivision:
+  - lessThan: 2
+    output: '&8'
+  - greaterThanOrEqual: 2
+    lessThan: 5
+    output: '&7'
+  - greaterThanOrEqual: 5
+    lessThan: 10
+    output: '&f'
+  - greaterThanOrEqual: 10
+    lessThan: 25
+    output: '&6'
+  - greaterThanOrEqual: 25
+    lessThan: 50
+    output: '&b'
+  - greaterThanOrEqual: 50
+    lessThan: 75
+    output: '&2'
+  - greaterThanOrEqual: 75
+    lessThan: 100
+    output: '&4'
+  - greaterThanOrEqual: 100
+    lessThan: 200
+    output: '&e'
+  - greaterThanOrEqual: 200
+    output: '&5'
+wsDivisionOverall:
+  - lessThan: 5
+    output: '&8'
+  - greaterThanOrEqual: 5
+    lessThan: 10
+    output: '&7'
+  - greaterThanOrEqual: 10
+    lessThan: 20
+    output: '&f'
+  - greaterThanOrEqual: 20
+    lessThan: 50
+    output: '&6'
+  - greaterThanOrEqual: 50
+    lessThan: 100
+    output: '&b'
+  - greaterThanOrEqual: 100
+    lessThan: 150
+    output: '&2'
+  - greaterThanOrEqual: 150
+    lessThan: 200
+    output: '&4'
+  - greaterThanOrEqual: 200
+    lessThan: 400
+    output: '&e'
+  - greaterThanOrEqual: 400
+    output: '&5'

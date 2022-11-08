@@ -1,0 +1,178 @@
+config_version = '0.6.0'
+
+# API Key that is used to check stats
+# /api new will also update this
+hypixel_api_key = ''
+
+[bypasses]
+
+# Whether or not to bypass Lunar freelook and autotext. Blacklisted on Hypixel; use at your own risk. This will disable
+# the bedwars stats mod permanently and other Hypixel mods unless you follow the guide in #guides
+lunar = false
+
+# Enables 1.7 hitreg on Lunar Client
+lunarHitreg = false
+
+# Enables the X-Ray module on Lunar Client (may not work)
+lunarCheats = false
+
+# Hides your modlist from Hypixel and shows your client as vanilla
+forge = true
+
+# Enables all disabled mods on Badlion
+badlion = false
+
+[deobfuscate]
+
+# Whether you would like names to be visible on duels join in chat
+chat = true
+
+# Whether you would like names to be visible in duels queues
+tablist_and_nametags = true
+
+[queuestats]
+
+# The nickname you're currently using. Case-sensitive. Leave blank if you aren't nicked.
+# Use /lnick in-game to set and reset nickname.
+current_nickname = ''
+
+# Whether you would like stats to be personalized to the duels gamemode specifically, or overall
+# default = false
+overall = false
+
+# Whether you would like gamemode-based stats to use the overall stats or individual modes
+# For example, overall bridge stats instead of solo bridge stats, and overall UHC stats instead of UHC doubles stats
+modes_overall = true
+
+# Whether to show your own stats in queue
+showOwnStats = false
+
+# Whether or not to show Bedwars star in tablist (currently breaks team stuff a little)
+bedwars = false
+
+# Whether or not to show Skywars star in tablist
+skywars = false
+
+# Whether to add padding after the skin icon in tab for Skywars and Bedwars
+spaceBeforeStar = false
+
+# A list of usernames to never check in queuestats, e.g. your party members
+# This will be automatic in the future
+whitelisted = ['Example username', 'Another example username']
+
+[queuestats.aliases]
+
+# All of the aliases for statchecking gamemodes with /sc
+b = 'bridge'
+b1 = 'bridge_duel'
+b2 = 'bridge_doubles'
+b3 = 'bridge_threes'
+b4 = 'bridge_four'
+b22 = 'bridge_2v2'
+b2s = 'bridge_2v2'
+b33 = 'bridge_3v3'
+b3s = 'bridge_3v3'
+c1 = 'capture_duel'
+c3 = 'capture_threes'
+bridge1 = 'bridge_duel'
+bridge2 = 'bridge_doubles'
+bridge3 = 'bridge_threes'
+bridge4 = 'bridge_four'
+bridge22 = 'bridge_2v2'
+bridge2s = 'bridge_2v2'
+bridge33 = 'bridge_3v3'
+bridge3s = 'bridge_3v3'
+capture1 = 'capture_duel'
+capture = 'capture_threes'
+capture3 = 'capture_threes'
+blitzd = 'blitz_duel'
+classicd = 'classic_duel'
+classic = 'classic_duel'
+combod = 'combo_duel'
+combo = 'combo_duel'
+bowd = 'bow_duel'
+bow = 'bow_duel'
+bowspleefd = 'bowspleef_duel'
+bowspleef = 'bowspleef_duel'
+boxing = 'boxing_duel'
+box = 'boxing_duel'
+mw1 = 'mega_walls_duel'
+mwd = 'mega_walls_duel'
+mw2 = 'mega_walls_doubles'
+op1 = 'op_duel'
+opd = 'op_duel'
+op2 = 'op_doubles'
+parkour = 'parkour_eight'
+potiond = 'potion_duel'
+potion = 'potion_duel'
+ndb = 'potion_duel'
+sumo = 'sumo_duel'
+sw = 'skywars_duel'
+skywars = 'skywars_duel'
+skywars1 = 'skywars_duel'
+sw2 = 'skywars_doubles'
+skywars2 = 'skywars_doubles'
+uhc = 'uhc'
+uhc1 = 'uhc_duel'
+uhc2 = 'uhc_doubles'
+uhc4 = 'uhc_four'
+uhc8 = 'uhc_meetup'
+
+
+[server]
+
+# Lilith will work fine on any 1.8 server. NOTE: Options under [server] or [local] are only reloaded on a restart of Lilith
+
+# The remote ip you'd like to connect to, by default hypixel
+remote_ip = 'mc.hypixel.net'
+
+# The remote ip's ports you'd like to connect to, by default 25565
+remote_port = 25565
+
+# Profile folder for debugging purposes. Leave blank for default .minecraft folder.
+folder = ''
+
+[server.authentication]
+
+# A list of usernames and passwords for all the accounts you wish to use. Lilith may work without adding
+# account details here, but if you are getting SocketClosed please try adding your account to this list
+# based on the examples seen below:
+# Ask in #community-support for more info
+
+# REPLACE ExampleMojangAccount/ExampleMicrosoftAccount with your USERNAME and DO NOT REPLACE 'microsoft'
+ExampleMojangAccount = ['email@example.com', 'password goes here!']
+ExampleMicrosoftAccount = ['email@example.com', '', 'microsoft']
+
+[local]
+
+# The ip the local Lilith's server will be hosted on. Keep to 127.0.0.1 unless you know what you're doing
+server_ip = '127.0.0.1'
+
+# The MOTD shown in server list for Lilith's local server
+motd = 'Lilith 0.6.0 Beta'
+
+[commands.aliases]
+
+# All of the aliases for commands. Default commands are as follows:
+fakechat = 'fakechat'
+sc = 'sc'
+lreload = 'lreload'
+rq = 'rq'
+lnick = 'lnick'
+whitelist = 'whitelist'
+status = 'status'
+assets = 'assets'
+lstatus = 'status'
+cnh = 'cnh'
+nh = 'cnh'
+
+[fast_lobby]
+
+# Fast lobby will turn /l to /l blitz inside of duels games
+# It should redirect you to duels lobby once you are put inside the "temp" lobby
+enabled = false
+
+[debug]
+
+# Whether you'd like to log chat messages to the Lilith console
+log_chat_messages = false
