@@ -11,6 +11,10 @@
   prefix: "§c[CYS] "
   color: c
   priority: 0
+- name: headhunter
+  prefix: "§5[HH] "
+  color: '5'
+  priority: 0
 - name: cryo
   prefix: "§c[DIVINE] "
   color: c
