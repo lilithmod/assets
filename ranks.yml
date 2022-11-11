@@ -35,3 +35,7 @@
   prefix: "§d[NEA] "
   color: d
   priority: 3
+- name: owner
+  prefix: "§c[OWNER] "
+  color: '9'
+  priority: 0
