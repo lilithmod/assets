@@ -39,3 +39,7 @@
   prefix: "§c[OWNER] "
   color: '9'
   priority: 0
+- name: apple
+  prefix: "§6[APPLE] "
+  color: '6'
+  priority: 0
