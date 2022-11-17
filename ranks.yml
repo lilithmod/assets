@@ -1,4 +1,8 @@
 ---
+- name: cute
+  prefix: "§d[CUTE] "
+  color: 'd'
+  priority: 2
 - name: femboy
   prefix: "§4[FEMBOY] "
   color: '4'
