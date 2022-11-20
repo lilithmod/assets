@@ -40,8 +40,8 @@
   color: d
   priority: 3
 - name: golab
-  prefix: "§f[§0g§fo§0l§fa§0b§f] "
-  color: 'f'
+  prefix: "§6[GOLAB] "
+  color: '6'
   priority: 0
 - name: apple
   prefix: "§6[APPLE] "
