@@ -23,10 +23,6 @@
   prefix: "§5[HH] "
   color: '5'
   priority: 0
-- name: cryo
-  prefix: "§c[DIVINE] "
-  color: c
-  priority: 0
 - name: ross
   prefix: "§d[ROSS<3] "
   color: d
@@ -43,9 +39,9 @@
   prefix: "§d[NEA] "
   color: d
   priority: 3
-- name: owner
-  prefix: "§c[OWNER] "
-  color: '9'
+- name: golab
+  prefix: "§f[§0g§fo§0l§fa§0b§f] "
+  color: 'f'
   priority: 0
 - name: apple
   prefix: "§6[APPLE] "
