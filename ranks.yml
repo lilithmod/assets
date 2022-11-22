@@ -47,3 +47,7 @@
   prefix: "§6[APPLE] "
   color: '6'
   priority: 0
+- name: frog
+  prefix: "§a[FROG] "
+  color: 'a'
+  priority: 0
