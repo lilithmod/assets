@@ -59,3 +59,7 @@
   prefix: "§0[HEART] "
   color: '0'
   priority: 0
+- name: mvpminus
+  prefix: "§7[MVP--] "
+  color: '7'
+  priority: 0
