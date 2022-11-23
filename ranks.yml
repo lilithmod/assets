@@ -51,3 +51,7 @@
   prefix: "§a[FROG] "
   color: 'a'
   priority: 0
+- name: dad
+  prefix: "§e[DAD] "
+  color: 'e'
+  priority: 0
