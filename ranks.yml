@@ -55,3 +55,7 @@
   prefix: "§e[DAD] "
   color: 'e'
   priority: 0
+- name: heart
+  prefix: "§0[HEART] "
+  color: '0'
+  priority: 0
