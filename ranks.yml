@@ -63,3 +63,7 @@
   prefix: "§2[MVP--] "
   color: '2'
   priority: 0
+- name: goat
+  prefix: "§4[GOAT] "
+  color: '4'
+  priority: 0
