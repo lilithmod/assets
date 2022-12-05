@@ -69,7 +69,7 @@
   priority: 0
 - name: diablo
   prefix: "§4[ALWAYS] "
-  color: '0'
+  color: '4'
   priority: 0
 - name: clairo
   prefix: "§4[4EVER] "
