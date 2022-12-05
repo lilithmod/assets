@@ -68,7 +68,7 @@
   color: '4'
   priority: 0
 - name: diablo
-  prefix: "§0[DIABLO] "
+  prefix: "§4[ALWAYS] "
   color: '0'
   priority: 0
 - name: clairo
