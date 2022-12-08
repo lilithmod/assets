@@ -76,6 +76,6 @@
   color: '4'
   priority: 0
 - name: heartemoji
-  prefix: "§c[<3] "
-  color: 'c'
+  prefix: "§d[<3] "
+  color: 'd'
   priority: 0
