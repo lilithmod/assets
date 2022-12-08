@@ -75,3 +75,7 @@
   prefix: "§4[4EVER] "
   color: '4'
   priority: 0
+- name: heartemoji
+  prefix: "§c[<3] "
+  color: 'c'
+  priority: 0
