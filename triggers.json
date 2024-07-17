@@ -68,6 +68,10 @@
         },
         {
           "type": 0,
+          "pattern": "^ {35}Winner(s?)$"
+        },
+        {
+          "type": 0,
           "pattern": "^ {21}Bridge CTF [a-zA-Z]+ - \\d\\d:\\d\\d$"
         },
         {
