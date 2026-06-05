@@ -1,5 +1,0 @@
----
-test_gamemode:
-  message: Hello
-  gamemode: player.stats.Duels
-
